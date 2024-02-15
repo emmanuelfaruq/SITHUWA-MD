@@ -3,16 +3,16 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || '94761516805'  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
+global.owner = process.env.OWNER_NUMBER || '2348116533387'  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://SithumKalhara:97531@cluster0.iva7dbo.mongodb.net/?retryWrites=true&w=majority"
 global.port= process.env.PORT || 5000
 global.email = 'Sithumkalhara271@gmail.com'
-global.github = 'https://github.com/Sithuwa/SITHUWA-MD'
+global.github = 'https://github.com/emmanuelfaruq/SITHUWA-MD'
 global.location = 'Sri Lanka'
 global.gurl = 'https://instagram.com' // add your username
 global.sudo = process.env.SUDO || "94761516805"
 global.devs = '94761516805';
-global.website = 'https://github.com/Sithuwa/SITHUWA-MD' //wa.me/+94000000000000
+global.website = 'https://github.com/emmanuelfaruq/SITHUWA-MD' //wa.me/+94000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/15b1dd8aeaa47888d75d7.jpg'
 module.exports = {
   sessionName: process.env.SESSION_ID || "",      //Put Your Session Id Here
